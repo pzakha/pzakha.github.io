@@ -14,10 +14,12 @@ Anyone who has worked with ZFS for some time knows how resilient it is to data l
 
 If this is a customer pool and a replication of the pool doesn’t exist, what would follow is a painful support session where a ZFS-internals savvy developer will try different tricks in attempt to import the pool and salvage as much user data as possible. A failure to import the pool here means total loss of data.
 
-    code test
-    test test
-      another test
-    done
+```
+code test
+test test
+  another test
+done
+```
 
 Having been been in a similar situation myself, I realised the tools to help recover a broken pool are quite limited. Generally, the recovery process is somewhere along the lines of:
 
