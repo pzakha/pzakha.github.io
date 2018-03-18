@@ -2,14 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+I'm a systems engineer who's interested in [ZFS](http://open-zfs.org/wiki/Main_Page).
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+More info to come.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[pavel.zakha@gmail.com](mailto:pavel.zakha@gmail.com)
