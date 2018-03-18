@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Turbocharging ZFS Data Recovery
+published: true
 ---
 
 ## Intro
@@ -12,6 +13,11 @@ Anyone who has worked with ZFS for some time knows how resilient it is to data l
         a backup source.
 
 If this is a customer pool and a replication of the pool doesn’t exist, what would follow is a painful support session where a ZFS-internals savvy developer will try different tricks in attempt to import the pool and salvage as much user data as possible. A failure to import the pool here means total loss of data.
+
+    code test
+    test test
+      another test
+    done
 
 Having been been in a similar situation myself, I realised the tools to help recover a broken pool are quite limited. Generally, the recovery process is somewhere along the lines of:
 
@@ -844,4 +850,3 @@ Other useful tunables:
 ## When to expect new feature to be available on my platform?
 
 As of March 2018, it has landed on OpenZFS and Illumos but not yet on FreeBSD and Linux, where I’d expect it to be upstreamed in the next few months. The first OS that will get this feature will probably be [OmniOS Community Edition](https://www.omniosce.org/), although I do not have an exact timeline.
-
