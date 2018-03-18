@@ -1,7 +1,7 @@
 ---
-published: false
+layout: post
+title: Turbocharging ZFS Data Recovery
 ---
-Turbocharging ZFS Data Recovery
 
 ## Intro
 
